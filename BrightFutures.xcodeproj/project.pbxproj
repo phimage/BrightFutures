@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C47AD68E1C4F9EDE0071E215 /* Dictionary+BrightFutures.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47AD68D1C4F9EDE0071E215 /* Dictionary+BrightFutures.swift */; };
+		C47AD68F1C4FA2DF0071E215 /* Dictionary+BrightFutures.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47AD68D1C4F9EDE0071E215 /* Dictionary+BrightFutures.swift */; };
+		C47AD6901C4FA2E00071E215 /* Dictionary+BrightFutures.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47AD68D1C4F9EDE0071E215 /* Dictionary+BrightFutures.swift */; };
+		C47AD6911C4FA2E10071E215 /* Dictionary+BrightFutures.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47AD68D1C4F9EDE0071E215 /* Dictionary+BrightFutures.swift */; };
 		E9039ADD1A45DF8D000DD6F1 /* ResultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9039ADC1A45DF8D000DD6F1 /* ResultTests.swift */; };
 		E907D1DE1A6AE4A000AB8075 /* Semaphore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E907D1DD1A6AE4A000AB8075 /* Semaphore.swift */; };
 		E9319EA41A397D2C00A0604A /* QueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9319EA31A397D2C00A0604A /* QueueTests.swift */; };
@@ -153,6 +157,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C47AD68D1C4F9EDE0071E215 /* Dictionary+BrightFutures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+BrightFutures.swift"; sourceTree = "<group>"; };
 		E9039ADC1A45DF8D000DD6F1 /* ResultTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultTests.swift; sourceTree = "<group>"; };
 		E907D1DD1A6AE4A000AB8075 /* Semaphore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Semaphore.swift; sourceTree = "<group>"; };
 		E9319EA31A397D2C00A0604A /* QueueTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueTests.swift; sourceTree = "<group>"; };
@@ -336,6 +341,7 @@
 				E9B094671B5FE086003AC209 /* MutableAsyncType+ResultType.swift */,
 				E9F69B9A1B93347200713A91 /* Result+BrightFutures.swift */,
 				E979E5F31975B1AA007FE914 /* SequenceType+BrightFutures.swift */,
+				C47AD68D1C4F9EDE0071E215 /* Dictionary+BrightFutures.swift */,
 				E943D28C1BAC0FFD00E9EFB3 /* NSOperationQueue+BrightFutures.swift */,
 				E9DF0818194470060083F7F2 /* Supporting Files */,
 			);
@@ -643,6 +649,7 @@
 				E98647B51BF3288400B6BEEE /* ExecutionContext.swift in Sources */,
 				E98647BC1BF3288400B6BEEE /* Async.swift in Sources */,
 				E98647B41BF3288400B6BEEE /* InvalidationToken.swift in Sources */,
+				C47AD6911C4FA2E10071E215 /* Dictionary+BrightFutures.swift in Sources */,
 				E98647B91BF3288400B6BEEE /* Semaphore.swift in Sources */,
 				E98647B71BF3288400B6BEEE /* Promise.swift in Sources */,
 				E98647BE1BF3288400B6BEEE /* MutableAsyncType.swift in Sources */,
@@ -681,6 +688,7 @@
 				E9877CB31B826AA5009DB030 /* InvalidationToken.swift in Sources */,
 				E9877CBA1B826AA5009DB030 /* Errors.swift in Sources */,
 				E9877CBD1B826AA5009DB030 /* AsyncType+ResultType.swift in Sources */,
+				C47AD6901C4FA2E00071E215 /* Dictionary+BrightFutures.swift in Sources */,
 				E9877CBB1B826AA5009DB030 /* AsyncType.swift in Sources */,
 				E9877CBE1B826AA5009DB030 /* MutableAsyncType.swift in Sources */,
 				E9877CBF1B826AA5009DB030 /* MutableAsyncType+ResultType.swift in Sources */,
@@ -703,6 +711,7 @@
 				E9D45B1A1AF00668000F6CA7 /* ExecutionContext.swift in Sources */,
 				E9DD4EF21B4F16C00070C2AF /* Async.swift in Sources */,
 				E9D45B1F1AF00670000F6CA7 /* SequenceType+BrightFutures.swift in Sources */,
+				C47AD68F1C4FA2DF0071E215 /* Dictionary+BrightFutures.swift in Sources */,
 				E9DD4EF31B4F16C30070C2AF /* AsyncType.swift in Sources */,
 				E9CA7B421B555DB200102F87 /* MutableAsyncType.swift in Sources */,
 				E9B094691B5FE086003AC209 /* MutableAsyncType+ResultType.swift in Sources */,
@@ -741,6 +750,7 @@
 				E9DF0836194470190083F7F2 /* Future.swift in Sources */,
 				E9DF0835194470190083F7F2 /* ExecutionContext.swift in Sources */,
 				E9DD4EEF1B4ED51A0070C2AF /* AsyncType.swift in Sources */,
+				C47AD68E1C4F9EDE0071E215 /* Dictionary+BrightFutures.swift in Sources */,
 				E9DF0837194470190083F7F2 /* Promise.swift in Sources */,
 				E9CA7B411B555DB200102F87 /* MutableAsyncType.swift in Sources */,
 				E9B094681B5FE086003AC209 /* MutableAsyncType+ResultType.swift in Sources */,

@@ -928,6 +928,25 @@ extension BrightFuturesTests {
         self.waitForExpectationsWithTimeout(2, handler: nil)
     }
     
+    func testUtilsDictionarySequence() {
+        var futures = [Int: Future<Int, NoError>]()
+        for i in (1...10) {
+            futures[i] = fibonacciFuture(i)
+        }
+        
+        let e = self.expectation()
+        
+        futures.sequence().onSuccess { fibs in
+            for (_, num) in fibs.enumerate() {
+                XCTAssertEqual(fibonacci(num.0), num.1)
+            }
+            
+            e.fulfill()
+        }
+        
+        self.waitForExpectationsWithTimeout(2, handler: nil)
+    }
+
     func testUtilsFindSuccess() {
         let futures: [Future<Int, NoError>] = [
             Future(value: 1),
